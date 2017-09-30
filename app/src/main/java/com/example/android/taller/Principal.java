@@ -99,7 +99,7 @@ public class Principal extends AppCompatActivity {
            }
            res.setText("valor hombre: " + String.format("%.2f", resultado));
            res1.setText("valor mujer: " + String.format("%.2f", resultado1));
-           resultado2 = resultado + resultado1;
+           resultado2 = Metodos.suma(resultado, resultado1);
            res2.setText("el valor total: " + String.format("%.2f", resultado2));
        }
    }
